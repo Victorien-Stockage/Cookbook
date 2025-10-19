@@ -2,8 +2,13 @@
 #=======================
 #|      Packages       |
 #=======================
-import streamlit as st 
-st.markdown('<style>' + open('styles.css').read() + '</style>', unsafe_allow_html=True)
+import streamlit as st
+
+ 
+with open('./files/wave.css') as f:
+    css = f.read()
+
+st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 
 #=====================
