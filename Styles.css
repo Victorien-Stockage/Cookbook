@@ -1,0 +1,9 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: medium;
+    color: light-dark(#000000, #ffffff);
+}

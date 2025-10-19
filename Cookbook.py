@@ -3,7 +3,7 @@
 #|      Packages       |
 #=======================
 import streamlit as st 
-
+st.markdown('<style>' + open('styles.css').read() + '</style>', unsafe_allow_html=True)
 
 
 #=====================
