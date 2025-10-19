@@ -12,8 +12,8 @@ with open('Styles.css') as f:
     css = f.read()
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
-background = Image.open('Pictures\Main_page\Banner.png')
-st.image(background, width=1920)
+background = Image.open('Pictures/Main_page/Banner.png')
+st.image(background)
 
 
 #=======================
