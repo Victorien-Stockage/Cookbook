@@ -1,8 +1,10 @@
 
+/* Classe générale */
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Titre principal */
 h1{
     font-size: larger;
     color: light-dark(#000000, #ffffff);
@@ -12,12 +14,14 @@ h1{
     background-size: auto, 100% 100%;
 }
 
+/* Titre secondaire */
 h2{
     font-size: large;
     text-decoration: underline;   
     text-align: left; 
 }
 
+/* Texte général */
 p{
     font-size: medium;
     color: light-dark(#000000, #ffffff);
