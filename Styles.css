@@ -3,7 +3,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1{
+    font-size: larger;
+    color: light-dark(#000000, #ffffff);
+    text-transform: capitalize;
+    text-align: center;
+    background-color: light-dark(#ababab, #404040);
+    background-size: auto, 100% 100%;
+}
+
+h2{
+    font-size: large;
+    text-decoration: underline;   
+    text-align: left; 
+}
+
 p{
     font-size: medium;
     color: light-dark(#000000, #ffffff);
+    text-justify: auto;
 }
