@@ -51,7 +51,6 @@ h2{
 /* Texte général */
 p{
     font-size: medium;
-    color: light-dark(#000000, #ffffff);
     text-align: justify;
     text-justify: auto;
 }

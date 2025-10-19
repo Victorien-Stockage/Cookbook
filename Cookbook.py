@@ -23,7 +23,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 #=======================
 st.markdown(    
 	"""
-    <section id="banner">
+    <section id="Banner_main">
 		<div class="content">
 			<h2>Livre de recettes de Victorien</h2>
 		</div>
