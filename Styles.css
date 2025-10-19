@@ -36,7 +36,7 @@ body {
 /* Titres */
 h1{
     font-size: larger;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -52,6 +52,7 @@ h2{
 p{
     font-size: medium;
     color: light-dark(#000000, #ffffff);
+    text-align: justify;
     text-justify: auto;
 }
 
@@ -78,7 +79,7 @@ p{
 			padding: 4em 0 3.5em 0;
     }
 
-    #banner_main .content h2 {
+    #banner_main .content h1 {
 				margin: 0 0 0.5em 0;
     }
 
