@@ -25,7 +25,7 @@ st.markdown(
 	"""
     <section id="Banner_main">
 		<div class="content">
-			<h2>Livre de recettes de Victorien</h2>
+			<h1>Livre de recettes de Victorien</h2>
 		</div>
 	</section>
     """, unsafe_allow_html=True

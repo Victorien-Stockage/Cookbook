@@ -60,7 +60,7 @@ p{
 /* Banner main page */
 #Banner_main {
 		position: relative;
-		background-image: "Pictures/Main_page/Banner.png";
+		background-image: url("Pictures/Main_page/Banner.png");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
