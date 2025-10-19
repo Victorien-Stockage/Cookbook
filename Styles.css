@@ -1,25 +1,52 @@
 
-/* Classe générale */
-*{
+/*| ----------
+/*| Styles.css
+/*| ----------
+/*| 
+/*| Fichier CSS lié au porjet Cookbook
+/*| Réalisé par Victorien CLEMENT
+/*| Création 19/10/2025
+/*| 
+
+
+/* Classes générales */
+h1, h2, h3, h4, h5, h6, p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: light-dark(#000000, #ffffff);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
 }
 
-/* Titre principal */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	line-height: 1;
+	-webkit-text-size-adjust: none;
+}
+
+
+
+/* Titres */
 h1{
     font-size: larger;
-    color: light-dark(#000000, #ffffff);
     text-transform: capitalize;
     text-align: center;
-    background-color: light-dark(#ababab, #404040);
-    background-size: auto, 100% 100%;
 }
 
-/* Titre secondaire */
 h2{
     font-size: large;
-    text-decoration: underline;   
+    text-decoration: underline;
     text-align: left; 
 }
+
+
 
 /* Texte général */
 p{
@@ -27,3 +54,41 @@ p{
     color: light-dark(#000000, #ffffff);
     text-justify: auto;
 }
+
+
+
+/* Banner main page */
+#Banner_main {
+		position: relative;
+		background-image: "Pictures/Main_page/Banner.png";
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 1;
+		padding: 11em 0;
+}
+    #banner_main .content {
+			position: relative;
+            background-color: light-dark(#ababab, #404040);
+			background-position: top left, center center;
+			background-size: auto, 100% 250%;
+			background-repeat: no-repeat;
+			text-align: center;
+			margin: 0;
+			padding: 4em 0 3.5em 0;
+    }
+
+    #banner_main .content h2 {
+				margin: 0 0 0.5em 0;
+    }
+
+    #banner_main .content p {
+				display: block;
+				font-weight: 700;
+				text-transform: uppercase;
+                color: light-dark(#000000, #ffffff);
+				margin: 0 0 1.25em 0;        
+    }
+
+
+
